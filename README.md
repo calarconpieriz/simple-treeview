@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run mock:api`
+
+Runs the json server to perform an API request that returns the directory tree.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

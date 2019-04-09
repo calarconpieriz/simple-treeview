@@ -1,0 +1,38 @@
+{
+  "/root": {
+    "path": "/root",
+    "type": "folder",
+    "isRoot": true,
+    "children": ["/root/user1", "/root/user2"]
+  },
+  "/root/user1": {
+    "path": "/root/user1",
+    "type": "folder",
+    "children": ["/root/user1/readme.md"]
+  },
+  "/root/user1/readme.md": {
+    "path": "/root/user1/readme.md",
+    "type": "file",
+    "content": "Thanks for reading me. But there is nothing here."
+  },
+  "/root/user2": {
+    "path": "/root/user2",
+    "type": "folder",
+    "children": ["/root/user2/projects", "/root/user2/books"]
+  },
+  "/root/user2/projects": {
+    "path": "/root/user2/projects",
+    "type": "folder",
+    "children": ["/root/user2/projects/treeview"]
+  },
+  "/root/user2/projects/treeview": {
+    "path": "/root/user2/projects/treeview",
+    "type": "folder",
+    "children": []
+  },
+  "/root/user2/books": {
+    "path": "/root/user2/books",
+    "type": "folder",
+    "children": []
+  }
+}

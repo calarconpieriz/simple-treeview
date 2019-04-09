@@ -7,6 +7,7 @@ import TreeNode from './TreeNode';
 export default class Tree extends Component {
 
   state = {
+    nodes: null
   };
 
   componentDidMount() {

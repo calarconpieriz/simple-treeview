@@ -12,13 +12,13 @@ const StyledTreeNode = styled.div`
   padding-left: ${props => getPaddingLeft(props.level, props.type)}px;
 
   &:hover {
-    background: lightgray;
+    background: #03A9F4;
   }
 `;
 
 const NodeIcon = styled.div`
-  font-size: 12px;
   margin-right: ${props => props.marginRight ? props.marginRight : 5}px;
+  font-size: 12px;
 `;
 
 const getPaddingLeft = (level, type) => {
